@@ -9,6 +9,7 @@ It uses:
 * [Google Chrome](https://www.google.com/chrome/) as the local browser for testing
 * [npm](https://www.npmjs.com/) for dependency management
 * [Applitools Eyes](https://applitools.com/platform/eyes/) for visual testing
+* [React](https://reactjs.org/)
 
 To run this example project, you'll need:
 
