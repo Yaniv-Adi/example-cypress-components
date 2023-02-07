@@ -1,4 +1,4 @@
-# exemple-cypress-components
+# example-cypress-components
 
 This is the example project for the Cypress JavaScript tutorial. It shows how to start automating visual tests with Applitools Eyes and the Ultrafast Grid using Cypress in JavaScript.
 
