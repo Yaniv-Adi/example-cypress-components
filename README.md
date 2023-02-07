@@ -27,7 +27,8 @@ npm install
 npx eyes-setup
 ```
 
-The Applitools config file is applitools.config.js. The main test spec is acme-bank.spec.js.
+After running eyes-setup, make sure to follow the instractions in the terminal.
+The Applitools config file is [applitools.config.js](../applitools.config.js). The main test spec is acme-bank.spec.js.
 
 To execute tests, set the APPLITOOLS_API_KEY environment variable to your account's API key.
 
