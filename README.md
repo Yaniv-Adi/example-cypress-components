@@ -29,7 +29,11 @@ npx eyes-setup
 
 After running eyes-setup, make sure to follow the instractions in the terminal.
 
-The Applitools config file is [applitools.config.js](applitools.config.js). The main test spec is acme-bank.spec.js.
+The Applitools config file is [applitools.config.js](applitools.config.js). 
+
+The main test spec is [ComponentTest.cy.jsx](/cypress/component/ComponentTest.cy.jsx).
+
+The component file we are testing [TestComponent.jsx](/src/TestComponent.jsx).
 
 To execute tests, set the APPLITOOLS_API_KEY environment variable to your account's API key.
 
@@ -39,5 +43,5 @@ npx cypress open --components
 ```
 If you want to run tests directly from the command line, run this instead:
 ```
-npx cypress run
+npx cypress run --components
 ```
